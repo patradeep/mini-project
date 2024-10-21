@@ -8,7 +8,7 @@ const jwt = require("jsonwebtoken");
 const post = require('./models/post.js');
 
 require('dotenv').config();
-let PORT=process.env.PORT
+let PORT=process.env.PORT ||3000
 
 app.set('view engine', 'ejs');
 app.use(express.json());
