@@ -6,9 +6,9 @@
 
     {
 
-      "src": "index.js",
+      "src": "app.js",
 
-      "use": "@now/node"
+      "use": "@vercel/node"
 
     }
 
@@ -22,7 +22,7 @@
       "src": "/(.*)",
 
 
-      "dest": "index.js"
+      "dest": "/"
 
     }
 
