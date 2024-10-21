@@ -9,6 +9,7 @@ const post = require('./models/post.js');
 
 require('dotenv').config();
 let PORT=process.env.PORT ||3000
+// let DB=process.env.DB
 
 app.set('view engine', 'ejs');
 app.use(express.json());

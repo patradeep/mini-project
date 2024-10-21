@@ -1,7 +1,8 @@
 const { name } = require("ejs");
 const mongoose=require("mongoose");
+// let DB=process.env.DB
 
-mongoose.connect('mongodb://localhost:27017/miniproject');
+mongoose.connect("mongodb+srv://deepanjanpatra6:deep123@y123.34mjp.mongodb.net/");
 
 const userschema=mongoose.Schema({
   username:String,
