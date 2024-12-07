@@ -101,4 +101,5 @@ function islogedin(req, res, next) {
   }
 }
 
-// Vercel handles the server start, so no need for app.listen(PORT);
+// Export the app for Vercel
+module.exports = app;
