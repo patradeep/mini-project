@@ -5,10 +5,12 @@ const postModel = require("./models/post.js");
 const bcrypt = require("bcrypt");
 const app = express();
 const jwt = require("jsonwebtoken");
+const path = require('path');
 
 require('dotenv').config();
 
 app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views')); // Ensure the correct path to views
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
