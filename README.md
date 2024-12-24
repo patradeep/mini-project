@@ -89,6 +89,3 @@ This is a mini project created to demonstrate a simple web application using Nod
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
-
-I will now create this README.md file in your repository.
